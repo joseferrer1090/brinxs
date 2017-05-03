@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {Link} from 'react-router-dom'
-
+import {Router, Route, IndexRouter, hashHistory} from 'react-router'
 
 export default class NavLeftBar extends Component {
   render(){
