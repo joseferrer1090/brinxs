@@ -10,6 +10,7 @@ class App extends Component {
       <HashRouter>
           <div>
               <Route exact path="/" component={Login}/>
+              <Route exact path="/Home" component={Home}/>
           </div>
       </HashRouter>
     );
