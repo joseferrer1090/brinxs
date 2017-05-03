@@ -21,7 +21,7 @@ export default class NavBar extends Component {
                     <ul className="dropdown-menu" role="menu">
                       <li><a href="#"><svg className="glyph stroked male-user"><use xlinkHref="#stroked-male-user"></use></svg> Perfil</a></li>
                       <li><a href="#"><svg className="glyph stroked gear"><use xlinkHref="#stroked-gear"></use></svg> Herramientas</a></li>
-                      <li><a href="#"><svg className="glyph stroked cancel"><use xlinkHref="#stroked-cancel"></use></svg> Cerrar Sesion</a></li>
+                      <li><a href="#/clear"><svg className="glyph stroked cancel"><use xlinkHref="#stroked-cancel"></use></svg> Cerrar Sesion</a></li>
                     </ul>
                   </li>
                 </ul>
